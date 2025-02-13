@@ -1,24 +1,13 @@
-// import { BrowserRouter, Routes, Route, Router } from "react-router-dom"
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
-import Signuppage from "./components/Signup"
 
+import Routing from "./routerDom/Routing"
 
 function App() {
  
-
   return (
     <div>
-      <Navbar />
-      
+      <Routing/>
     </div>
-      // <BrowserRouter>
-      // 
-      // <Router>
-      //   <Route> </Route>
-      // </Router>
-      // <Footer />
-      // </BrowserRouter>
+
   )
 }
 
